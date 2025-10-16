@@ -1,0 +1,15 @@
+{
+  "map_width": 60,
+  "map_height": 30,
+  "biome_centers": 10,
+  "crash_epicenter_variance": 5,
+  "view_radius": 8,
+  "professions": {
+    "Engineer": {"hp": 110, "hunger_mod": 0.9, "start_items": ["multitool"]},
+    "Xenobotanist": {"hp": 90, "hunger_mod": 0.8, "start_items": ["botany_kit"]}
+  },
+  "symbols": {
+    "player": "@",
+    "unknown": " "
+  }
+}
