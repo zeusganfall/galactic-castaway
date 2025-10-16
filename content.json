@@ -1,0 +1,20 @@
+{
+  "biomes": [
+    {"id": "acidic_swamp", "name": "Acidic Swamp", "symbol": "~", "weight": 1},
+    {"id": "crystalline_forest", "name": "Crystalline Forest", "symbol": "*", "weight": 1},
+    {"id": "geothermal_vents", "name": "Geothermal Vents", "symbol": "^", "weight": 0.6}
+  ],
+  "creatures": [
+    {
+      "template_id": "ambler",
+      "name": "Ambler",
+      "tags": ["hostile"],
+      "health_range": [6, 12],
+      "damage_range": [1, 4],
+      "drop_table": [{"item": "chitin", "chance": 0.25}]
+    }
+  ],
+  "tech_nodes": [
+    {"node_id": "beacon_core", "name": "Beacon Core", "prereq": [], "rarity": 0.02}
+  ]
+}
